@@ -1,0 +1,274 @@
+@import "nullstyle.scss";
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap');
+
+$orng: #C4482E;
+$blck: #182227;
+
+/* ------ Оболочка  ------ */
+
+.wrapper {
+	min-height: 100%;
+	overflow: hidden;
+	display: flex;
+	flex-direction: column;
+	font-family: "Roboto";
+	font-size: 15px;
+	font-weight: 400;
+	color: $blck;
+}
+
+/* ------ Контейнеры ------ */
+
+.container{
+  max-width: 1200px;
+  margin: 0px auto;
+}
+
+.content {
+  /* Контент занимает всё место между header и footer */
+  flex: 1 1 auto;
+}
+
+/* ------ Меню ------ */
+
+.header{
+	padding: 50px 0;
+
+	.header__row {
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+
+		.header__logo {
+			display: flex;
+			align-items: center;
+
+			.header__img {
+				max-width: 45px;
+				margin: 0px 20px 0px 0px;
+			}
+
+			.header__img img {
+				width: 100%;
+			}
+
+			.header__name {
+				font-weight: 900;
+				font-size: 24px;
+				letter-spacing: 0.07em;
+			}
+		}
+
+		.header__nav a {
+			text-decoration: none;
+			color: $blck;
+			font-weight: 900;
+			letter-spacing: 0.07em;
+			margin: 0px 44px 0px 0px;
+		}
+
+		.header__nav a:last-child {
+			margin: 0;
+		}
+
+		.header__nav a:hover {
+			color: $orng;
+		}
+	}
+}
+
+
+/* ------ Home ------ */
+
+.home {
+	height: calc(100vh - 100px);
+
+	.home__row {
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+
+		.home__column {
+			.home__title {
+				font-weight: 900;
+				font-size: 48px;
+				margin: 0px 0px 35px 0px;
+			}
+			.home__subtitle {
+				font-size: 30px;
+				line-height: 35px;
+				color: #616161;
+				margin: 0px 0px 35px 0px;
+			}
+			.home__subtitle span {
+				font-weight: 700;
+				color: $orng;
+			}
+			.home__btns {
+				display: flex;
+				align-items: center;
+				font-weight: 500;
+				font-size: 20px;
+				.home__btn1 a {
+					display: inline-block;
+					text-decoration: none;
+					padding: 15px 30px;
+					background: $orng;
+					color: #fff;
+					text-align: center;
+					border-radius: 30px;
+					margin: 0px 25px 0px 0px;
+				}
+				.home__btn2 a {
+					display: inline-block;
+					text-decoration: none;
+					padding: 15px 30px;
+					color: $orng;
+					text-align: center;
+					border-radius: 30px;
+					border: 3px solid $orng;
+					box-sizing: border-box;
+				}
+			}
+		}
+
+		.home__img {
+			max-width: 450px;
+			background: #769EA7;
+			border-radius: 50%;
+		}
+
+		.home__img img {
+			width: 100%;
+		}
+	}
+}
+
+
+/* ------ Маркет ------ */
+
+.market {
+	background: #F3F8FA;
+	color: $blck;
+
+	.market__section {
+		padding: 70px 0;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+
+		.market__title {
+			font-weight: 500;
+			font-size: 40px;
+			margin: 0px 0px 70px 0px;
+		}
+
+		.market__row {
+			display: flex;
+			align-items: center;
+			justify-content: space-between;
+			margin: 0 -30px;
+
+			.market__item {
+				flex: 1 1 33%;
+				background: #fff;
+				border-radius: 30px;
+				padding: 30px 40px;
+				margin: 0 30px;
+
+				display: flex;
+				flex-direction: column;
+				align-items: center;
+
+				.market__name {
+					font-weight: 500;
+					font-size: 24px;
+					text-align: center;
+					margin: 0px 0px 30px 0px;
+				}
+				.market__img {
+					max-weight: 200px;
+					margin: 0px 0px 30px 0px;
+				}
+				.market__img img {
+					weight: 100%;
+				}
+				.market__price {
+					font-size: 24px;
+					font-weight: 700;
+					color: $orng;
+
+					align-self:flex-start;
+					margin: 0px 0px 30px 0px;
+				}
+				.market__desc {
+					align-self:flex-start;
+					margin: 0px 0px 30px 0px;
+				}
+				.market__desc span{
+					font-weight: 700;
+				}
+				.market__btn a {
+					display: inline-block;
+					text-decoration: none;
+					padding: 15px 30px;
+					font-weight: 700;
+					background: $orng;
+					color: #fff;
+					text-align: center;
+					border-radius: 30px;
+				}
+			}
+		}
+	}
+}
+
+
+/* ------ Футер ------ */
+
+.footer {
+	padding: 50px 0;
+	line-height: 18px;
+	letter-spacing: 0.07em;
+	.footer__row {
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+
+		.footer__column {
+
+			.footer__text {
+				margin: 0px 0px 30px 0px;
+			}
+			.footer__text p {
+				margin: 0px 0px 20px 0px;
+			}
+			.footer__text p:last-child {
+				margin: 0;
+			}
+
+			.footer__icons{
+				display: flex;
+				align-items: center;
+				margin: 0px 0px 30px 0px;
+
+				.footer__icon {
+					margin: 0px 15px 0px 0px;
+				}
+				.footer__icon:last-child {
+					margin: 0;
+				}
+			}
+
+			.footer__copyright a{
+				text-decoration: none;
+				color: $blck; 
+				font-weight: 900;
+			}
+			.footer__copyright a:hover{
+				color: $orng;
+			}
+		}
+		.footer__map {}
+	}
+}

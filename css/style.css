@@ -1,0 +1,368 @@
+@charset "UTF-8";
+/*Обнуление*/
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+
+*, *:before, *:after {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+:focus, :active {
+  outline: none;
+}
+
+a:focus, a:active {
+  outline: none;
+}
+
+nav, footer, header, aside {
+  display: block;
+}
+
+html, body {
+  height: 100%;
+  width: 100%;
+  font-size: 100%;
+  line-height: 1;
+  font-size: 14px;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+
+input, button, textarea {
+  font-family: inherit;
+}
+
+input::-ms-clear {
+  display: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+button::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
+
+a, a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+ul li {
+  list-style: none;
+}
+
+img {
+  vertical-align: top;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-size: inherit;
+  font-weight: inherit;
+}
+
+/*--------------------*/
+/* ------ Оболочка  ------ */
+.wrapper {
+  min-height: 100%;
+  overflow: hidden;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  font-family: "Roboto";
+  font-size: 15px;
+  font-weight: 400;
+  color: #182227;
+}
+
+/* ------ Контейнеры ------ */
+.container {
+  max-width: 1200px;
+  margin: 0px auto;
+}
+
+.content {
+  /* Контент занимает всё место между header и footer */
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 auto;
+          flex: 1 1 auto;
+}
+
+/* ------ Меню ------ */
+.header {
+  padding: 50px 0;
+}
+.header .header__row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.header .header__row .header__logo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.header .header__row .header__logo .header__img {
+  max-width: 45px;
+  margin: 0px 20px 0px 0px;
+}
+.header .header__row .header__logo .header__img img {
+  width: 100%;
+}
+.header .header__row .header__logo .header__name {
+  font-weight: 900;
+  font-size: 24px;
+  letter-spacing: 0.07em;
+}
+.header .header__row .header__nav a {
+  text-decoration: none;
+  color: #182227;
+  font-weight: 900;
+  letter-spacing: 0.07em;
+  margin: 0px 44px 0px 0px;
+}
+.header .header__row .header__nav a:last-child {
+  margin: 0;
+}
+.header .header__row .header__nav a:hover {
+  color: #C4482E;
+}
+
+/* ------ Home ------ */
+.home {
+  height: calc(100vh - 100px);
+}
+.home .home__row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.home .home__row .home__column .home__title {
+  font-weight: 900;
+  font-size: 48px;
+  margin: 0px 0px 35px 0px;
+}
+.home .home__row .home__column .home__subtitle {
+  font-size: 30px;
+  line-height: 35px;
+  color: #616161;
+  margin: 0px 0px 35px 0px;
+}
+.home .home__row .home__column .home__subtitle span {
+  font-weight: 700;
+  color: #C4482E;
+}
+.home .home__row .home__column .home__btns {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-weight: 500;
+  font-size: 20px;
+}
+.home .home__row .home__column .home__btns .home__btn1 a {
+  display: inline-block;
+  text-decoration: none;
+  padding: 15px 30px;
+  background: #C4482E;
+  color: #fff;
+  text-align: center;
+  border-radius: 30px;
+  margin: 0px 25px 0px 0px;
+}
+.home .home__row .home__column .home__btns .home__btn2 a {
+  display: inline-block;
+  text-decoration: none;
+  padding: 15px 30px;
+  color: #C4482E;
+  text-align: center;
+  border-radius: 30px;
+  border: 3px solid #C4482E;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+.home .home__row .home__img {
+  max-width: 450px;
+  background: #769EA7;
+  border-radius: 50%;
+}
+.home .home__row .home__img img {
+  width: 100%;
+}
+
+/* ------ Маркет ------ */
+.market {
+  background: #F3F8FA;
+  color: #182227;
+}
+.market .market__section {
+  padding: 70px 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.market .market__section .market__title {
+  font-weight: 500;
+  font-size: 40px;
+  margin: 0px 0px 70px 0px;
+}
+.market .market__section .market__row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin: 0 -30px;
+}
+.market .market__section .market__row .market__item {
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 33%;
+          flex: 1 1 33%;
+  background: #fff;
+  border-radius: 30px;
+  padding: 30px 40px;
+  margin: 0 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.market .market__section .market__row .market__item .market__name {
+  font-weight: 500;
+  font-size: 24px;
+  text-align: center;
+  margin: 0px 0px 30px 0px;
+}
+.market .market__section .market__row .market__item .market__img {
+  max-weight: 200px;
+  margin: 0px 0px 30px 0px;
+}
+.market .market__section .market__row .market__item .market__img img {
+  weight: 100%;
+}
+.market .market__section .market__row .market__item .market__price {
+  font-size: 24px;
+  font-weight: 700;
+  color: #C4482E;
+  -ms-flex-item-align: start;
+      align-self: flex-start;
+  margin: 0px 0px 30px 0px;
+}
+.market .market__section .market__row .market__item .market__desc {
+  -ms-flex-item-align: start;
+      align-self: flex-start;
+  margin: 0px 0px 30px 0px;
+}
+.market .market__section .market__row .market__item .market__desc span {
+  font-weight: 700;
+}
+.market .market__section .market__row .market__item .market__btn a {
+  display: inline-block;
+  text-decoration: none;
+  padding: 15px 30px;
+  font-weight: 700;
+  background: #C4482E;
+  color: #fff;
+  text-align: center;
+  border-radius: 30px;
+}
+
+/* ------ Футер ------ */
+.footer {
+  padding: 50px 0;
+  line-height: 18px;
+  letter-spacing: 0.07em;
+}
+.footer .footer__row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.footer .footer__row .footer__column .footer__text {
+  margin: 0px 0px 30px 0px;
+}
+.footer .footer__row .footer__column .footer__text p {
+  margin: 0px 0px 20px 0px;
+}
+.footer .footer__row .footer__column .footer__text p:last-child {
+  margin: 0;
+}
+.footer .footer__row .footer__column .footer__icons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 0px 0px 30px 0px;
+}
+.footer .footer__row .footer__column .footer__icons .footer__icon {
+  margin: 0px 15px 0px 0px;
+}
+.footer .footer__row .footer__column .footer__icons .footer__icon:last-child {
+  margin: 0;
+}
+.footer .footer__row .footer__column .footer__copyright a {
+  text-decoration: none;
+  color: #182227;
+  font-weight: 900;
+}
+.footer .footer__row .footer__column .footer__copyright a:hover {
+  color: #C4482E;
+}
