@@ -95,6 +95,7 @@ h1, h2, h3, h4, h5, h6 {
 .container {
   max-width: 1200px;
   margin: 0px auto;
+  pading: 0 10px;
 }
 
 .content {
@@ -106,9 +107,29 @@ h1, h2, h3, h4, h5, h6 {
 
 /* ------ Меню ------ */
 .header {
-  padding: 50px 0;
+  position: fixed;
+  padding: 20px 0;
+  top: 0;
+  left: 0;
+  z-index: 50;
+  width: 100%;
+}
+.header:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #fff;
+  z-index: 2;
+}
+.header .header__burger {
+  display: none;
 }
 .header .header__row {
+  position: relative;
+  height: 50px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -126,36 +147,141 @@ h1, h2, h3, h4, h5, h6 {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  position: relative;
+  z-index: 3;
 }
 .header .header__row .header__logo .header__img {
-  max-width: 45px;
+  -webkit-box-flex: 0;
+      -ms-flex: 0 1 45px;
+          flex: 0 1 45px;
   margin: 0px 20px 0px 0px;
 }
 .header .header__row .header__logo .header__img img {
-  width: 100%;
+  max-width: 100%;
+  display: block;
 }
 .header .header__row .header__logo .header__name {
   font-weight: 900;
   font-size: 24px;
   letter-spacing: 0.07em;
 }
-.header .header__row .header__nav a {
+.header .header__row .header__list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+  z-index: 2;
+}
+.header .header__row .header__list li {
+  list-style: none;
+}
+.header .header__row .header__link a {
   text-decoration: none;
   color: #182227;
   font-weight: 900;
   letter-spacing: 0.07em;
-  margin: 0px 44px 0px 0px;
+  margin: 0px 0px 0px 44px;
 }
-.header .header__row .header__nav a:last-child {
-  margin: 0;
-}
-.header .header__row .header__nav a:hover {
+.header .header__row .header__link a:hover {
   color: #C4482E;
+}
+@media (max-width: 767px) {
+  .header .header__row {
+    height: 30px;
+  }
+  .header .header__burger {
+    display: block;
+    position: relative;
+    width: 30px;
+    height: 20px;
+    position: relative;
+    z-index: 3;
+    margin: 0px 30px 0px 0px;
+  }
+  .header .header__burger span {
+    position: absolute;
+    background-color: #182227;
+    left: 0;
+    width: 100%;
+    height: 3px;
+    top: 9px;
+    -webkit-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
+  }
+  .header .header__burger:before,
+.header .header__burger:after {
+    content: "";
+    background-color: #182227;
+    position: absolute;
+    width: 100%;
+    height: 3px;
+    -webkit-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
+  }
+  .header .header__burger:before {
+    top: 0;
+  }
+  .header .header__burger:after {
+    bottom: 0;
+  }
+  .header .header__burger.active:before {
+    -webkit-transform: rotate(45deg);
+            transform: rotate(45deg);
+    top: 9px;
+  }
+  .header .header__burger.active:after {
+    -webkit-transform: rotate(-45deg);
+            transform: rotate(-45deg);
+    bottom: 9px;
+  }
+  .header .header__burger.active span {
+    -webkit-transform: scale(0);
+            transform: scale(0);
+  }
+  .header .header__logo {
+    margin: 0px 0px 0px 30px;
+  }
+  .header .header__img {
+    -webkit-box-flex: 0;
+        -ms-flex: 0 1 20px;
+            flex: 0 1 20px;
+  }
+  .header .header__name {
+    font-size: 20px;
+  }
+  .header .header__menu {
+    position: fixed;
+    top: -100%;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #F3F8FA;
+    padding: 120px 20px 30px 20px;
+    -webkit-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
+  }
+  .header .header__menu.active {
+    top: 0;
+  }
+  .header .header__list {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    font-size: 20px;
+  }
+  .header .header__list li {
+    margin: 0px 0px 60px 0px;
+  }
 }
 
 /* ------ Home ------ */
 .home {
-  height: calc(100vh - 100px);
+  height: 100vh;
+  padding: 200px 0px 0px 0px;
 }
 .home .home__row {
   display: -webkit-box;
