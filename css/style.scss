@@ -2,6 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap');
 
 $orng: #C4482E;
+$darkorng: #B04029;
 $blck: #182227;
 
 /* ------ Оболочка  ------ */
@@ -261,6 +262,9 @@ html,body {
 					border-radius: 30px;
 					margin: 0px 25px 0px 0px;
 				}
+				.home__btn1 a:hover {
+					background: $darkorng;
+				}
 				.home__btn2 a {
 					display: inline-block;
 					text-decoration: none;
@@ -270,6 +274,10 @@ html,body {
 					border-radius: 30px;
 					border: 3px solid $orng;
 					box-sizing: border-box;
+				}
+				.home__btn2 a:hover {
+					background: $orng;
+					color: #fff;
 				}
 			}
 		}
@@ -309,14 +317,15 @@ html,body {
 			display: flex;
 			align-items: center;
 			justify-content: space-between;
-			margin: 0 -30px;
+			flex-wrap: wrap;
+			margin: -30px -30px;
 
 			.market__item {
-				flex: 1 1 33%;
+				flex: 1 1 33,333%;
 				background: #fff;
 				border-radius: 30px;
 				padding: 30px 40px;
-				margin: 0 30px;
+				margin: 30px 30px;
 
 				display: flex;
 				flex-direction: column;
@@ -359,6 +368,9 @@ html,body {
 					color: #fff;
 					text-align: center;
 					border-radius: 30px;
+				}
+				.market__btn a:hover {
+					color: $darkorng;	
 				}
 			}
 		}
