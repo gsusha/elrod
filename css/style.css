@@ -438,6 +438,16 @@ html, body {
   font-size: 40px;
   margin: 0px 0px 70px 0px;
 }
+@media (max-width: 1200px) {
+  .market .market__section .market__title {
+    font-size: 36px;
+  }
+}
+@media (max-width: 992px) {
+  .market .market__section .market__title {
+    font-size: 32px;
+  }
+}
 .market .market__section .market__row {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -495,6 +505,7 @@ html, body {
 .market .market__section .market__row .market__item .market__desc {
   -ms-flex-item-align: start;
       align-self: flex-start;
+  line-height: 18px;
   margin: 0px 0px 30px 0px;
 }
 .market .market__section .market__row .market__item .market__desc span {
@@ -513,7 +524,13 @@ html, body {
 .market .market__section .market__row .market__item .market__btn a:hover {
   background: #B04029;
 }
-
+@media (max-width: 1200px) {
+  .market .market__item {
+    -webkit-box-flex: 1;
+        -ms-flex: 1 1 25%;
+            flex: 1 1 25%;
+  }
+}
 /* ------ Футер ------ */
 .footer {
   padding: 50px 0;

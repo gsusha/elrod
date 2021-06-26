@@ -376,6 +376,17 @@ html,body {
 			margin: 0px 0px 70px 0px;
 		}
 
+		@media (max-width: 1200px) {
+			.market__title{
+				font-size: 36px;
+			}
+		}
+		@media (max-width: 992px) {
+			.market__title {
+				font-size: 32px;
+			}	
+		}
+
 		.market__row {
 			display: flex;
 			align-items: center;
@@ -417,6 +428,7 @@ html,body {
 				}
 				.market__desc {
 					align-self:flex-start;
+					line-height: 18px;
 					margin: 0px 0px 30px 0px;
 				}
 				.market__desc span{
@@ -437,6 +449,22 @@ html,body {
 				}
 			}
 		}
+	}
+
+	@media (max-width: 1200px) {
+		.market__item {
+			flex: 1 1 25%;
+		}
+	}
+	@media (max-width: 992px) {
+		.market__item {
+				
+		}
+	}
+	@media (max-width: 767px) {
+		.market__item {
+			
+		}	
 	}
 }
 
