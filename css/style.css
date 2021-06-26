@@ -577,7 +577,7 @@ html, body {
   }
 }
 @media (max-width: 480px) {
-  .footer .footer__row {
+  .footer .footer__row .footer__map {
     display: none;
   }
 }

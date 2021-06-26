@@ -497,9 +497,12 @@ html,body {
 			}
 		}
 		}
-		.footer__map {}
-		@media (max-width: 480px) {
-				display: none;
+
+		.footer__map {
+			@media (max-width: 480px) {
+			display: none;
+			}
 		}
+
 	}
 }
