@@ -285,7 +285,7 @@ html, body {
 /* ------ Home ------ */
 .home {
   height: 100vh;
-  padding: 200px 0px 0px 0px;
+  padding: 100px 0px;
 }
 .home .home__row {
   display: -webkit-box;
@@ -297,6 +297,7 @@ html, body {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+  height: 75vh;
 }
 .home .home__row .home__column .home__title {
   font-weight: 900;
@@ -655,10 +656,25 @@ html, body {
   font-family: "Roboto";
   color: #182227;
   width: 600px;
-  margin: 15% auto;
+  margin: 25vh auto;
   padding: 50px;
   background: #fff;
   border-radius: 30px;
+}
+@media (max-width: 992px) {
+  .modal .modal__window {
+    width: 500px;
+  }
+}
+@media (max-width: 767px) {
+  .modal .modal__window {
+    width: 400px;
+  }
+}
+@media (max-width: 460px) {
+  .modal .modal__window {
+    width: 300px;
+  }
 }
 .modal .modal__window .modal__close {
   display: block;
@@ -678,12 +694,34 @@ html, body {
 .modal .modal__window .modal__title {
   font-weight: 900;
   font-size: 30px;
-  margin: 0px 0px 10px 0px;
+  margin: 30px 0px 10px 0px;
+}
+@media (max-width: 767px) {
+  .modal .modal__window .modal__title {
+    font-size: 26px;
+  }
+}
+@media (max-width: 460px) {
+  .modal .modal__window .modal__title {
+    font-size: 24px;
+  }
 }
 .modal .modal__window .modal__subtitle {
   font-size: 25px;
   line-height: 35px;
   margin: 0px 0px 30px 0px;
+}
+@media (max-width: 767px) {
+  .modal .modal__window .modal__subtitle {
+    font-size: 22px;
+    line-height: 25px;
+  }
+}
+@media (max-width: 460px) {
+  .modal .modal__window .modal__subtitle {
+    font-size: 16px;
+    line-height: 20px;
+  }
 }
 
 form {

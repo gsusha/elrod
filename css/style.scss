@@ -220,12 +220,13 @@ html,body {
 
 .home {
 	height: 100vh;
-	padding: 200px 0px 0px 0px;
+	padding: 100px 0px;
 
 	.home__row {
 		display: flex;
 		align-items: center;
 		justify-content: space-between;
+		height: 75vh;
 
 		.home__column {
 
@@ -575,11 +576,23 @@ html,body {
 		color: $blck;
 
 		width: 600px;
-		margin: 15% auto;
+		margin: 25vh auto;
 		padding: 50px;
 
 		background: #fff;
 		border-radius: 30px;
+
+		@media(max-width: 992px) {
+			width: 500px;
+		}
+
+		@media(max-width: 767px) {
+			width: 400px;
+		}
+
+		@media(max-width: 460px) {
+			width: 300px;
+		}
 
 		.modal__close {
 			display: block;
@@ -600,12 +613,31 @@ html,body {
 		.modal__title {
 			font-weight: 900;
 			font-size: 30px;
-			margin: 0px 0px 10px 0px;
+			margin: 30px 0px 10px 0px;
+
+			@media(max-width: 767px) {
+				font-size: 26px;
+			}
+
+			@media(max-width: 460px) {
+				font-size: 24px;
+			}
+
 		}
 		.modal__subtitle {
 			font-size: 25px;
 			line-height: 35px;
 			margin: 0px 0px 30px 0px;
+
+			@media(max-width: 767px) {
+				font-size: 22px;
+				line-height: 25px;
+			}
+
+			@media(max-width: 460px) {
+				font-size: 16px;
+				line-height: 20px;
+			}
 		}
 	}
 }
