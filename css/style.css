@@ -427,6 +427,7 @@ html, body {
 .market {
   background: #F3F8FA;
   color: #182227;
+  padding: 100px 0px;
   /* 
   @media (max-width: 1200px) {
   	.market__item {
@@ -436,7 +437,6 @@ html, body {
   */
 }
 .market .market__section {
-  padding: 70px 0;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -451,7 +451,8 @@ html, body {
 .market .market__section .market__title {
   font-weight: 500;
   font-size: 40px;
-  margin: 0px 0px 70px 0px;
+  margin: 0px 0px 20px 0px;
+  padding: 10px 0px 0px 0px;
 }
 @media (max-width: 1200px) {
   .market .market__section .market__title {
