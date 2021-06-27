@@ -394,13 +394,17 @@ html,body {
    	 		@media (max-width: 1200px) {
    	 			grid-template-columns: 1fr 1fr;
    	 		}
-   	 		@media (max-width: 760px) {
-   	 			grid-template-columns: 1fr;
+   	 		@media (max-width: 767px) {
+   	 			display: flex;
+				align-items: center;
+				justify-content: space-between;
+				flex-wrap: wrap;
    	 		}
    	 		/* display: flex;
 			align-items: center;
 			justify-content: space-between;
 			flex-wrap: wrap; */
+
 			margin: 30px auto;
 
 			.market__item {
@@ -413,6 +417,10 @@ html,body {
 				display: flex;
 				flex-direction: column;
 				align-items: center;
+
+			@media (max-width: 760px) {
+   	 			margin: 30px auto;
+   	 		}
 
 				.market__name {
 					font-weight: 500;
