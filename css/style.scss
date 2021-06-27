@@ -298,6 +298,7 @@ html,body {
 					text-align: center;
 					border-radius: 30px;
 					margin: 0px 25px 0px 0px;
+					transition: all .6s ease 0s;
 				}
 				.home__btn1 a:hover {
 					background: $darkorng;
@@ -309,17 +310,21 @@ html,body {
 					}
 				}
 
-				.home__btn2 a {
+				.home__btn2 button {
 					display: inline-block;
+					background: #fff;
+					font-weight: 500;
+					font-size: 20px;
 					text-decoration: none;
-					padding: 15px 30px;
+					padding: 12px 30px;
 					color: $orng;
 					text-align: center;
 					border-radius: 30px;
 					border: 3px solid $orng;
 					box-sizing: border-box;
+					transition: all .6s ease 0s;
 				}
-				.home__btn2 a:hover {
+				.home__btn2 button:hover {
 					background: $orng;
 					color: #fff;
 				}
@@ -451,17 +456,20 @@ html,body {
 				.market__desc span{
 					font-weight: 700;
 				}
-				.market__btn a {
+				.market__btn button {
 					display: inline-block;
 					text-decoration: none;
-					padding: 15px 30px;
+					padding: 13px 40px;
 					font-weight: 700;
+					font-size: 15px;
+					letter-spacing: 0.07em;
 					background: $orng;
 					color: #fff;
 					text-align: center;
 					border-radius: 30px;
+					transition: all .6s ease 0s;
 				}
-				.market__btn a:hover {
+				.market__btn button:hover {
 					background: $darkorng;	
 				}
 			}
@@ -545,3 +553,96 @@ html,body {
 	}
 }
 
+/* ------ Форма заказа ------ */
+
+.modal {
+	display: none;
+	position: fixed;
+	z-index: 100;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	background: #00000080;
+
+	.modal__window{
+		display: block;
+		flex-direction: column;
+		align-items: center;
+		text-align: center;
+
+		font-family: "Roboto";
+		color: $blck;
+
+		width: 600px;
+		margin: 15% auto;
+		padding: 50px;
+
+		background: #fff;
+		border-radius: 30px;
+
+		.modal__close {
+			display: block;
+			color: $blck;
+			float: right;
+			font-size: 50px;
+			margin: -30px 0px 0px 0px;
+			transition: all .6s ease 0s;
+		}
+
+		.modal__close:hover,
+		.modal__close:focus {
+  			color: $orng;
+			text-decoration: none;
+			cursor: pointer;
+		}
+
+		.modal__title {
+			font-weight: 900;
+			font-size: 30px;
+			margin: 0px 0px 10px 0px;
+		}
+		.modal__subtitle {
+			font-size: 25px;
+			line-height: 35px;
+			margin: 0px 0px 30px 0px;
+		}
+	}
+}
+
+form {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+input[type=text],
+input[type=tel] {
+	border: 2px solid #C4C4C4;
+	box-sizing: border-box;
+	border-radius: 30px;
+
+	padding: 10px 15px;
+	margin: 0px 0px 10px 0px;
+}
+
+input[type=tel] {
+	margin: 0px 0px 30px 0px;
+}
+
+input[type=submit] {
+	display: inline-block;
+	text-decoration: none;
+	padding: 10px 40px;
+	font-weight: 700;
+	background: $orng;
+	color: #fff;
+	text-align: center;
+	border-radius: 30px;
+	transition: all .6s ease 0s;
+}
+
+input[type=submit]:hover {
+	background: $darkorng;
+	cursor: pointer;
+}

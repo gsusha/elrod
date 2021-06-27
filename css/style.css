@@ -367,6 +367,8 @@ html, body {
   text-align: center;
   border-radius: 30px;
   margin: 0px 25px 0px 0px;
+  -webkit-transition: all 0.6s ease 0s;
+  transition: all 0.6s ease 0s;
 }
 .home .home__row .home__column .home__btns .home__btn1 a:hover {
   background: #B04029;
@@ -376,18 +378,23 @@ html, body {
     margin: 0px 0px 20px 0px;
   }
 }
-.home .home__row .home__column .home__btns .home__btn2 a {
+.home .home__row .home__column .home__btns .home__btn2 button {
   display: inline-block;
+  background: #fff;
+  font-weight: 500;
+  font-size: 20px;
   text-decoration: none;
-  padding: 15px 30px;
+  padding: 12px 30px;
   color: #C4482E;
   text-align: center;
   border-radius: 30px;
   border: 3px solid #C4482E;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
+  -webkit-transition: all 0.6s ease 0s;
+  transition: all 0.6s ease 0s;
 }
-.home .home__row .home__column .home__btns .home__btn2 a:hover {
+.home .home__row .home__column .home__btns .home__btn2 button:hover {
   background: #C4482E;
   color: #fff;
 }
@@ -538,17 +545,21 @@ html, body {
 .market .market__section .market__row .market__item .market__desc span {
   font-weight: 700;
 }
-.market .market__section .market__row .market__item .market__btn a {
+.market .market__section .market__row .market__item .market__btn button {
   display: inline-block;
   text-decoration: none;
-  padding: 15px 30px;
+  padding: 13px 40px;
   font-weight: 700;
+  font-size: 15px;
+  letter-spacing: 0.07em;
   background: #C4482E;
   color: #fff;
   text-align: center;
   border-radius: 30px;
+  -webkit-transition: all 0.6s ease 0s;
+  transition: all 0.6s ease 0s;
 }
-.market .market__section .market__row .market__item .market__btn a:hover {
+.market .market__section .market__row .market__item .market__btn button:hover {
   background: #B04029;
 }
 
@@ -618,4 +629,104 @@ html, body {
   .footer .footer__row .footer__map {
     display: none;
   }
+}
+
+/* ------ Форма заказа ------ */
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 100;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background: #00000080;
+}
+.modal .modal__window {
+  display: block;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  font-family: "Roboto";
+  color: #182227;
+  width: 600px;
+  margin: 15% auto;
+  padding: 50px;
+  background: #fff;
+  border-radius: 30px;
+}
+.modal .modal__window .modal__close {
+  display: block;
+  color: #182227;
+  float: right;
+  font-size: 50px;
+  margin: -30px 0px 0px 0px;
+  -webkit-transition: all 0.6s ease 0s;
+  transition: all 0.6s ease 0s;
+}
+.modal .modal__window .modal__close:hover,
+.modal .modal__window .modal__close:focus {
+  color: #C4482E;
+  text-decoration: none;
+  cursor: pointer;
+}
+.modal .modal__window .modal__title {
+  font-weight: 900;
+  font-size: 30px;
+  margin: 0px 0px 10px 0px;
+}
+.modal .modal__window .modal__subtitle {
+  font-size: 25px;
+  line-height: 35px;
+  margin: 0px 0px 30px 0px;
+}
+
+form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+input[type=text],
+input[type=tel] {
+  border: 2px solid #C4C4C4;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border-radius: 30px;
+  padding: 10px 15px;
+  margin: 0px 0px 10px 0px;
+}
+
+input[type=tel] {
+  margin: 0px 0px 30px 0px;
+}
+
+input[type=submit] {
+  display: inline-block;
+  text-decoration: none;
+  padding: 10px 40px;
+  font-weight: 700;
+  background: #C4482E;
+  color: #fff;
+  text-align: center;
+  border-radius: 30px;
+  -webkit-transition: all 0.6s ease 0s;
+  transition: all 0.6s ease 0s;
+}
+
+input[type=submit]:hover {
+  background: #B04029;
+  cursor: pointer;
 }
