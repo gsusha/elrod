@@ -1,10 +1,11 @@
 $('document').ready(function(){
-	loadItems();
+	loadHover();
+	loadEScooter();
 });
 
-function loadItems() {
+function loadHover() {
 	$.getJSON('/json/hoverboards.json', function(data){
-		var hover = "";
+		var item = "";
 		for (var key in data){
 			item += '<div class="market__item">';
 			item += '<div class="market__name">' + data[key]['name'] + '</div>';
@@ -22,8 +23,10 @@ function loadItems() {
 		}
 		$('#hoverboardItems').html(item);
 	});
+}
 
-	$.getJSON('/json/e-scooters.json', function(data){
+function loadEScooter() {
+	$.getJSON('/json/escooters.json', function(data){
 		var item = "";
 		for (var key in data){
 			item += '<div class="market__item">';
@@ -39,5 +42,5 @@ function loadItems() {
 			item += '</div>'
 		}
 		$('#eScootersItems').html(item);
-	})
+	});
 }
