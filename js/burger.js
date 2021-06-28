@@ -6,5 +6,5 @@ $(document).ready(function() {
 	$('.header__menu').click(function(event){
        $('.header__burger, .header__menu').removeClass('active');
        $('body').removeClass('lock');
-});
+	});
 });
