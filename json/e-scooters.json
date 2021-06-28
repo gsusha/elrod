@@ -1,0 +1,56 @@
+{
+	"1" : {
+		"name" : "Kugoo V1",
+		"img" : "/img/goods/e-scooters/kuugo-v1.jpg",
+		"price" : "19 500 ₽",
+		"desc1" : "Диаметр колёс:",
+		"value1" : "14\"",
+		"desc2" : "Мощность",
+		"value2" : "400w",
+		"desc3": "Аккумулятор",
+		"value3": "7.5Ah"
+	},
+	"2" : {
+		"name" : "Kugoo V Pro",
+		"img" : "/img/goods/e-scooters/kuugo-v-pro.jpg",
+		"price" : "48 000 ₽",
+		"desc1" : "Диаметр колёс:",
+		"value1" : "14\"",
+		"desc2" : "Мощность",
+		"value2" : "1000w",
+		"desc3": "Аккумулятор",
+		"value3": "60V / 17.8 Аh"
+	},
+	"3" : {
+		"name" : "Kugoo King",
+		"img" : "/img/goods/e-scooters/kuugo-king.jpg",
+		"price" : "47 000 ₽",
+		"desc1" : "Диаметр колёс:",
+		"value1" : "14\"",
+		"desc2" : "Мощность",
+		"value2" : "600w",
+		"desc3": "Аккумулятор",
+		"value3": "60V / 17.8 Аh"
+	},
+	"4" : {
+		"name" : "Kugoo V1",
+		"img" : "/img/goods/e-scooters/kuugo-v1.jpg",
+		"price" : "19 500 ₽",
+		"desc1" : "Диаметр колёс:",
+		"value1" : "14\"",
+		"desc2" : "Мощность",
+		"value2" : "400w",
+		"desc3": "Аккумулятор",
+		"value3": "7.5Ah"
+	},
+	"5" : {
+		"name" : "Kugoo V Pro",
+		"img" : "/img/goods/e-scooters/kuugo-v-pro.jpg",
+		"price" : "48 000 ₽",
+		"desc1" : "Диаметр колёс:",
+		"value1" : "14\"",
+		"desc2" : "Мощность",
+		"value2" : "1000w",
+		"desc3": "Аккумулятор",
+		"value3": "60V / 17.8 Аh"
+}
