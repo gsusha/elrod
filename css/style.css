@@ -541,7 +541,7 @@ html, body {
 .market .market__section .market__row .market__item .market__desc {
   -ms-flex-item-align: start;
       align-self: flex-start;
-  line-height: 18px;
+  line-height: 22px;
   margin: 0px 0px 30px 0px;
 }
 .market .market__section .market__row .market__item .market__desc span {
