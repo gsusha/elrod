@@ -8,7 +8,7 @@ var btn = document.getElementById("order-btn");
 var span = document.getElementsByClassName("modal__close")[0];
 
 // Когда пользователь нажимает на кнопку, откройте модальный
-btn.onclick = function() {
+function openModal() {
   modal.style.display = "block";
 }
 
