@@ -1,0 +1,35 @@
+{
+	"1" : {
+		"name" : "Самокаты",
+		"img" : "/img/goods/scooters/scooter.jpg",
+		"price" : "1 000 ₽",
+		"desc1" : "Для детей и взрослых —",
+		"value1" : "",
+		"desc2" : "двухколёсные/трёхколёные,",
+		"value2" : "",
+		"desc3": "складные/инерционные.",
+		"value3": ""
+	},
+	"2" : {
+		"name" : "Детские самокаты",
+		"img" : "/img/goods/scooters/childscooter.jpg",
+		"price" : "300 ₽",
+		"desc1" : "Макс. нагрузка: ",
+		"value1" : "20кг",
+		"desc2" : "Масса: ",
+		"value2" : "2.15 кг",
+		"desc3": "Колёса (п/з): ",
+		"value3": "110 мм/80 мм"
+	},
+	"3" : {
+		"name" : "Скейтборды",
+		"img" : "/img/goods/scooters/skate.jpg",
+		"price" : "650 ₽",
+		"desc1" : "● Скейтборды",
+		"value1" : "",
+		"desc2" : "● Лонгборды",
+		"value2" : "",
+		"desc3": "● Стритборды",
+		"value3": ""
+	}
+}

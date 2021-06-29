@@ -16,13 +16,13 @@ function openModal() {
 // Когда пользователь нажимает на <span> (x), закройте модальное окно
 span.onclick = function() {
   modal.style.display = "none";
-  document.body.style.overflow = "visible";
+  document.body.style.overflow = auto;
 }
 
 // Когда пользователь щелкает в любом месте за пределами модального, закройте его
 window.onclick = function(event) {
   if (event.target == modal) {
     modal.style.display = "none";
-    document.body.style.overflow = "visible";
+    document.body.style.overflow = auto;
   }
 }

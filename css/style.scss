@@ -379,6 +379,7 @@ html,body {
 		align-items: center;
 
 		.market__title {
+			text-align: center;
 			font-weight: 500;
 			font-size: 40px;
 			margin: 0px 0px 20px 0px;
@@ -398,17 +399,17 @@ html,body {
 
 		.market__row {
 			display: grid;
-  			grid-template-columns: 1fr 1fr 1fr;
-   	 		
-   	 		@media (max-width: 1200px) {
-   	 			grid-template-columns: 1fr 1fr;
-   	 		}
-   	 		@media (max-width: 767px) {
-   	 			display: flex;
+  		grid-template-columns: 1fr 1fr 1fr;
+
+   	 	@media (max-width: 1200px) {
+   	 		grid-template-columns: 1fr 1fr;
+   	 	}
+   	 	@media (max-width: 767px) {
+   			display: flex;
 				align-items: center;
 				justify-content: space-between;
 				flex-wrap: wrap;
-   	 		}
+   	 	}
    	 		/* display: flex;
 			align-items: center;
 			justify-content: space-between;

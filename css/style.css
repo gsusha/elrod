@@ -451,6 +451,7 @@ html, body {
           align-items: center;
 }
 .market .market__section .market__title {
+  text-align: center;
   font-weight: 500;
   font-size: 40px;
   margin: 0px 0px 20px 0px;
