@@ -397,6 +397,40 @@ html,body {
 			}	
 		}
 
+		.market__filter {
+			.market__filter-btn {
+				display: inline-block;
+				background: #fff;
+				font-weight: 500;
+				font-size: 14px;
+				text-decoration: none;
+				padding: 6px 20px;
+				color: #999;
+				text-align: center;
+				border-radius: 30px;
+				border: 2px solid #bbb;
+				box-sizing: border-box;
+				transition: all .6s ease 0s;
+				margin: 0px 12px 0px 0px;
+			}
+			.market__flter-btn:last-child{
+				margin: 0;
+			}
+			.market__filter-btn:hover {
+				color: #666;
+				border: 2px solid #888;
+			}
+
+			.market__filter-btn.active {
+				color: #fff;
+				background: $orng;
+				border: 0;
+				padding: 8px 22px;
+			}
+
+		}
+
+
 		.market__row {
 			display: grid;
   		grid-template-columns: 1fr 1fr 1fr;
@@ -439,7 +473,7 @@ html,body {
 					margin: 0px 0px 30px 0px;
 				}
 				.market__img {
-					max-width: 200px;
+					flex: 0 0 40%;
 					margin: 0px 0px 30px 0px;
 				}
 				.market__img img {

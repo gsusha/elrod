@@ -31,7 +31,7 @@ function loadEScooters() {
 	$.getJSON('/json/escooters.json', function(data){
 		var item = "";
 		for (var key in data){
-			item += '<div class="market__item">';
+			item += '<div class="market__item ' + data[key]['producer'] +'">';
 			item += '<div class="market__name">' + data[key]['name'] + '</div>';
 			item += '<div class="market__img"><img src="' + data[key]['img'] + '"></div>';
 			item += '<div class="market__price">' + data[key]['price'] + '</div>';
