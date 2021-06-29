@@ -427,6 +427,19 @@ html,body {
 				border: 0;
 				padding: 8px 22px;
 			}
+			.market__filter-btn.active::after {
+				display: inline-block;
+				position: relative;
+				left: 12%;
+				width: 16px;
+				height: 16px;
+				content: "✕";
+				font-size: 11px;
+				font-weight: 700;
+				color: $orng;
+				background: #fff;
+				border-radius: 50%;
+			}
 
 		}
 
@@ -443,6 +456,10 @@ html,body {
 				align-items: center;
 				justify-content: space-between;
 				flex-wrap: wrap;
+   	 	}
+   	 	@media (max-width: 480px) {
+   			display: grid;
+   			grid-template-columns: 1fr;
    	 	}
    	 		/* display: flex;
 			align-items: center;
@@ -462,9 +479,14 @@ html,body {
 				flex-direction: column;
 				align-items: center;
 
-			@media (max-width: 760px) {
-   	 			margin: 30px auto;
-   	 		}
+
+   	 	@media (max-width: 760px) {
+   	 			flex: 1 1 auto;
+   	 	}
+
+   	  @media (max-width: 480px) {
+   	  	margin: 30px 0;
+   	  }
 
 				.market__name {
 					font-weight: 500;
@@ -473,11 +495,11 @@ html,body {
 					margin: 0px 0px 30px 0px;
 				}
 				.market__img {
-					flex: 0 0 40%;
 					margin: 0px 0px 30px 0px;
+					width: 200px;
 				}
 				.market__img img {
-					width: 100%;
+					max-width: 100%;
 				}
 				.market__price {
 					font-size: 24px;
