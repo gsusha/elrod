@@ -78,7 +78,7 @@ h1, h2, h3, h4, h5, h6 {
 html, body {
   height: 100%;
 }
-@media (max-width: 767px) {
+@media (max-width: 1100px) {
   html body.lock, body body.lock {
     overflow: hidden;
   }
@@ -194,7 +194,7 @@ html, body {
 .header .header__row .header__link a:hover {
   color: #C4482E;
 }
-@media (max-width: 767px) {
+@media (max-width: 1100px) {
   .header .header__row {
     height: 30px;
   }

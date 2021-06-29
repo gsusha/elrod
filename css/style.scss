@@ -9,7 +9,7 @@ $blck: #182227;
 
 html,body {
 	height: 100%;
-	@media (max-width:767px) {
+	@media (max-width:1100px) {
 		body.lock {
 			overflow: hidden;
 		}
@@ -126,7 +126,7 @@ html,body {
 
 	//Начало медиа бургер
 
-	@media (max-width:767px) {
+	@media (max-width:1100px) {
 		.header__row {
 			height: 30px;
 		}
