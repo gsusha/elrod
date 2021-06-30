@@ -1,7 +1,7 @@
 {
 	"1" : {
 		"name" : "Самокаты",
-		"img" : "/img/goods/scooters/scooter.jpg",
+		"img" : "/img/goods/scooters/scooter.webp",
 		"price" : "1 000 ₽",
 		"desc1" : "Для детей и взрослых —",
 		"value1" : "",
@@ -12,7 +12,7 @@
 	},
 	"2" : {
 		"name" : "Детские самокаты",
-		"img" : "/img/goods/scooters/childscooter.jpg",
+		"img" : "/img/goods/scooters/childscooter.webp",
 		"price" : "300 ₽",
 		"desc1" : "Макс. нагрузка: ",
 		"value1" : "20кг",
@@ -23,7 +23,7 @@
 	},
 	"3" : {
 		"name" : "Скейтборды",
-		"img" : "/img/goods/scooters/skate.jpg",
+		"img" : "/img/goods/scooters/skate.webp",
 		"price" : "650 ₽",
 		"desc1" : "● Скейтборды",
 		"value1" : "",

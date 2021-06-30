@@ -2,7 +2,7 @@
 	"1" : {
 		"name" : "Kugoo S1",
 		"producer" : "kugoo",
-		"img" : "/img/goods/e-scooters/kugoo-s1.jpg",
+		"img" : "/img/goods/e-scooters/kugoo-s1.webp",
 		"price" : "13 500 ₽",
 		"desc1" : "Диаметр колёс",
 		"value1" : "8\"",
@@ -14,7 +14,7 @@
 	"2" : {
 		"name" : "Kugoo S1+",
 		"producer" : "kugoo",
-		"img" : "/img/goods/e-scooters/kugoo-s1+.jpg",
+		"img" : "/img/goods/e-scooters/kugoo-s1+.webp",
 		"price" : "18 500 ₽",
 		"desc1" : "Диаметр колёс",
 		"value1" : "8\"",
@@ -22,12 +22,11 @@
 		"value2" : "400W",
 		"desc3": "Аккумулятор",
 		"value3": "36V / 7,5 Аh"
-"
 	},
 	"3" : {
 		"name" : "Kugoo S3",
 		"producer" : "kugoo",
-		"img" : "/img/goods/e-scooters/kugoo-s3.jpg",
+		"img" : "/img/goods/e-scooters/kugoo-s3.webp",
 		"price" : "14 000 ₽",
 		"desc1" : "Диаметр колёс",
 		"value1" : "8\"",
@@ -39,7 +38,7 @@
 	"4" : {
 		"name" : "Kugoo S3 Pro",
 		"producer" : "kugoo",
-		"img" : "/img/goods/e-scooters/kugoo-s3-pro.jpg",
+		"img" : "/img/goods/e-scooters/kugoo-s3-pro.webp",
 		"price" : "17 000 ₽",
 		"desc1" : "Диаметр колёс",
 		"value1" : "8\"",
@@ -51,7 +50,7 @@
 	"5" : {
 		"name" : "Kugoo M2",
 		"producer" : "kugoo",
-		"img" : "/img/goods/e-scooters/kugoo-m2.jpg",
+		"img" : "/img/goods/e-scooters/kugoo-m2.webp",
 		"price" : "18 300 ₽",
 		"desc1" : "Диаметр колёс",
 		"value1" : "8\"",
@@ -63,7 +62,7 @@
 	"6" : {
 		"name" : "Kugoo M2 Pro",
 		"producer" : "kugoo",
-		"img" : "/img/goods/e-scooters/kugoo-m2-pro.jpg",
+		"img" : "/img/goods/e-scooters/kugoo-m2-pro.webp",
 		"price" : "22 000 ₽",
 		"desc1" : "Диаметр колёс",
 		"value1" : "8\"",
@@ -75,7 +74,7 @@
 	"7" : {
 		"name" : "Kugoo M4",
 		"producer" : "kugoo",
-		"img" : "/img/goods/e-scooters/kugoo-m4.jpg",
+		"img" : "/img/goods/e-scooters/kugoo-m4.webp",
 		"price" : "23 500 ₽",
 		"desc1" : "Диаметр колёс",
 		"value1" : "10\"",
@@ -87,7 +86,7 @@
 	"8" : {
 		"name" : "Kugoo M4 Pro",
 		"producer" : "kugoo",
-		"img" : "/img/goods/e-scooters/kugoo-m4-pro.jpg",
+		"img" : "/img/goods/e-scooters/kugoo-m4-pro.webp",
 		"price" : "29 000 ₽",
 		"desc1" : "Диаметр колёс",
 		"value1" : "10\"",
@@ -99,7 +98,7 @@
 	"9" : {
 		"name" : "Kugoo M4 Pro",
 		"producer" : "kugoo",
-		"img" : "/img/goods/e-scooters/kugoo-m4-pro.jpg",
+		"img" : "/img/goods/e-scooters/kugoo-m4-pro.webp",
 		"price" : "31 500 ₽",
 		"desc1" : "Диаметр колёс",
 		"value1" : "10\"",
@@ -111,7 +110,7 @@
 	"10" : {
 		"name" : "Kugoo Max Speed",
 		"producer" : "kugoo",
-		"img" : "/img/goods/e-scooters/kugoo-max-speed.jpg",
+		"img" : "/img/goods/e-scooters/kugoo-max-speed.webp",
 		"price" : "24 500 ₽",
 		"desc1" : "Диаметр колёс",
 		"value1" : "10\"",
@@ -123,7 +122,7 @@
 	"11" : {
 		"name" : "Kugoo V1",
 		"producer" : "kugoo",
-		"img" : "/img/goods/e-scooters/kugoo-v1.jpg",
+		"img" : "/img/goods/e-scooters/kugoo-v1.webp",
 		"price" : "24 500 ₽",
 		"desc1" : "Диаметр колёс",
 		"value1" : "14\"",
@@ -135,7 +134,7 @@
 	"12" : {
 		"name" : "Kugoo C1",
 		"producer" : "kugoo",
-		"img" : "/img/goods/e-scooters/kugoo-v1.jpg",
+		"img" : "/img/goods/e-scooters/kugoo-v1.webp",
 		"price" : "24 500 ₽",
 		"desc1" : "Диаметр колёс",
 		"value1" : "12\"",
@@ -147,7 +146,7 @@
 	"13" : {
 		"name" : "Kugoo ES3",
 		"producer" : "kugoo",
-		"img" : "/img/goods/e-scooters/kugoo-es3.jpg",
+		"img" : "/img/goods/e-scooters/kugoo-es3.webp",
 		"price" : "28 500 ₽",
 		"desc1" : "Диаметр колёс",
 		"value1" : "12\"",
@@ -159,7 +158,7 @@
 	"14" : {
 		"name" : "Kugoo G-max",
 		"producer" : "kugoo",
-		"img" : "/img/goods/e-scooters/kugoo-g-max.jpg",
+		"img" : "/img/goods/e-scooters/kugoo-g-max.webp",
 		"price" : "30 000 ₽",
 		"desc1" : "Диаметр колёс",
 		"value1" : "10\"",
@@ -171,7 +170,7 @@
 	"15" : {
 		"name" : "Kugoo G1",
 		"producer" : "kugoo",
-		"img" : "/img/goods/e-scooters/kugoo-g1.jpg",
+		"img" : "/img/goods/e-scooters/kugoo-g1.webp",
 		"price" : "58 500 ₽",
 		"desc1" : "Диаметр колёс",
 		"value1" : "10\"",
@@ -183,7 +182,7 @@
 	"16" : {
 		"name" : "Kugoo G2 Pro",
 		"producer" : "kugoo",
-		"img" : "/img/goods/e-scooters/kugoo-g2-pro.jpg",
+		"img" : "/img/goods/e-scooters/kugoo-g2-pro.webp",
 		"price" : "40 000 ₽",
 		"desc1" : "Диаметр колёс",
 		"value1" : "10\"",
@@ -195,7 +194,7 @@
 	"17" : {
 		"name" : "Kugoo G-Booster",
 		"producer" : "kugoo",
-		"img" : "/img/goods/e-scooters/kugoo-g-booster.jpg",
+		"img" : "/img/goods/e-scooters/kugoo-g-booster.webp",
 		"price" : "55 500 ₽",
 		"desc1" : "Диаметр колёс",
 		"value1" : "10\"",
@@ -207,7 +206,7 @@
 	"18" : {
 		"name" : "Kugoo HX",
 		"producer" : "kugoo",
-		"img" : "/img/goods/e-scooters/kugoo-hx.jpg",
+		"img" : "/img/goods/e-scooters/kugoo-hx.webp",
 		"price" : "22 000 ₽",
 		"desc1" : "Диаметр колёс",
 		"value1" : "8.5\"",
@@ -219,7 +218,7 @@
 	"19" : {
 		"name" : "Kugoo HX Pro",
 		"producer" : "kugoo",
-		"img" : "/img/goods/e-scooters/kugoo-hx-pro.jpg",
+		"img" : "/img/goods/e-scooters/kugoo-hx-pro.webp",
 		"price" : "26 500 ₽",
 		"desc1" : "Диаметр колёс",
 		"value1" : "10\"",
@@ -231,7 +230,7 @@
 	"20" : {
 		"name" : "Kugoo X1",
 		"producer" : "kugoo",
-		"img" : "/img/goods/e-scooters/kugoox1.jpg",
+		"img" : "/img/goods/e-scooters/kugoox1.webp",
 		"price" : "28 000 ₽",
 		"desc1" : "Диаметр колёс",
 		"value1" : "8.5\"",
@@ -243,7 +242,7 @@
 	"21" : {
 		"name" : "Kugoo X8",
 		"producer" : "kugoo",
-		"img" : "/img/goods/e-scooters/kugoo-x8.jpg",
+		"img" : "/img/goods/e-scooters/kugoo-x8.webp",
 		"price" : "54 000 ₽",
 		"desc1" : "Диаметр колёс",
 		"value1" : "8\"",
@@ -255,7 +254,7 @@
 	"22" : {
 		"name" : "MiniPro S1",
 		"producer" : "minipro",
-		"img" : "/img/goods/e-scooters/minipro-s1.jpg",
+		"img" : "/img/goods/e-scooters/minipro-s1.webp",
 		"price" : "13 000 ₽",
 		"desc1" : "Диаметр колёс",
 		"value1" : "8\"",
@@ -267,7 +266,7 @@
 	"23" : {
 		"name" : "MiniPro S2",
 		"producer" : "minipro",
-		"img" : "/img/goods/e-scooters/minipro-s2.jpg",
+		"img" : "/img/goods/e-scooters/minipro-s2.webp",
 		"price" : "9 500 ₽",
 		"desc1" : "Диаметр колёс",
 		"value1" : "8\"",
@@ -279,7 +278,7 @@
 	"24" : {
 		"name" : "MiniPro S3",
 		"producer" : "minipro",
-		"img" : "/img/goods/e-scooters/minipro-s3.jpg",
+		"img" : "/img/goods/e-scooters/minipro-s3.webp",
 		"price" : "8 000 ₽",
 		"desc1" : "Диаметр колёс",
 		"value1" : "8\"",
@@ -291,7 +290,7 @@
 	"25" : {
 		"name" : "MiniPro S3+",
 		"producer" : "minipro",
-		"img" : "/img/goods/e-scooters/minipro-s3+.jpg",
+		"img" : "/img/goods/e-scooters/minipro-s3+.webp",
 		"price" : "48 000 ₽",
 		"desc1" : "Диаметр колёс",
 		"value1" : "8\"",
@@ -303,7 +302,7 @@
 	"26" : {
 		"name" : "MiniPro S4",
 		"producer" : "minipro",
-		"img" : "/img/goods/e-scooters/minipro-s4.jpg",
+		"img" : "/img/goods/e-scooters/minipro-s4.webp",
 		"price" : "48 000 ₽",
 		"desc1" : "Диаметр колёс",
 		"value1" : "8\"",
@@ -315,7 +314,7 @@
 	"27" : {
 		"name" : "MiniPro M2",
 		"producer" : "minipro",
-		"img" : "/img/goods/e-scooters/minipro-m2.jpg",
+		"img" : "/img/goods/e-scooters/minipro-m2.webp",
 		"price" : "48 000 ₽",
 		"desc1" : "Диаметр колёс",
 		"value1" : "8\"",
@@ -327,7 +326,7 @@
 	"28" : {
 		"name" : "MiniPro M3",
 		"producer" : "minipro",
-		"img" : "/img/goods/e-scooters/minipro-m3.jpg",
+		"img" : "/img/goods/e-scooters/minipro-m3.webp",
 		"price" : "17 500 ₽",
 		"desc1" : "Диаметр колёс",
 		"value1" : "10.5\"",
@@ -339,7 +338,7 @@
 	"29" : {
 		"name" : "MiniPro M4",
 		"producer" : "minipro",
-		"img" : "/img/goods/e-scooters/minipro-m4.jpg",
+		"img" : "/img/goods/e-scooters/minipro-m4.webp",
 		"price" : "17 000 ₽",
 		"desc1" : "Диаметр колёс",
 		"value1" : "11\"",
@@ -351,7 +350,7 @@
 	"30" : {
 		"name" : "MiniPro M5",
 		"producer" : "minipro",
-		"img" : "/img/goods/e-scooters/minipro-m5.jpg",
+		"img" : "/img/goods/e-scooters/minipro-m5.webp",
 		"price" : "21 000 ₽",
 		"desc1" : "Диаметр колёс",
 		"value1" : "11\"",
@@ -363,7 +362,7 @@
 	"31" : {
 		"name" : "MiniPro Mi118",
 		"producer" : "minipro",
-		"img" : "/img/goods/e-scooters/minipro-mi118.jpg",
+		"img" : "/img/goods/e-scooters/minipro-mi118.webp",
 		"price" : "21 500 ₽",
 		"desc1" : "Диаметр колёс",
 		"value1" : "8\"",
@@ -375,7 +374,7 @@
 	"32" : {
 		"name" : "MiniPro Mi158",
 		"producer" : "minipro",
-		"img" : "/img/goods/e-scooters/minipro-mi158.jpg",
+		"img" : "/img/goods/e-scooters/minipro-mi158.webp",
 		"price" : "17 500 ₽",
 		"desc1" : "Диаметр колёс",
 		"value1" : "8,5\"",
@@ -387,7 +386,7 @@
 	"33" : {
 		"name" : "MiniPro Mi188",
 		"producer" : "minipro",
-		"img" : "/img/goods/e-scooters/minipro-mi188.jpg",
+		"img" : "/img/goods/e-scooters/minipro-mi188.webp",
 		"price" : "11 500 ₽",
 		"desc1" : "Диаметр колёс",
 		"value1" : "8.5\"",
@@ -399,7 +398,7 @@
 	"34" : {
 		"name" : "MiniPro Mi502",
 		"producer" : "minipro",
-		"img" : "/img/goods/e-scooters/minipro-mi502.jpg",
+		"img" : "/img/goods/e-scooters/minipro-mi502.webp",
 		"price" : "16 000 ₽",
 		"desc1" : "Диаметр колёс",
 		"value1" : "10\"",
@@ -411,7 +410,7 @@
 	"35" : {
 		"name" : "MiniPro Mi506",
 		"producer" : "minipro",
-		"img" : "/img/goods/e-scooters/minipro-mi506.jpg",
+		"img" : "/img/goods/e-scooters/minipro-mi506.webp",
 		"price" : "11 500 ₽",
 		"desc1" : "Диаметр колёс",
 		"value1" : "10\"",
@@ -423,7 +422,7 @@
 	"36" : {
 		"name" : "MiniPro Mi508+",
 		"producer" : "minipro",
-		"img" : "/img/goods/e-scooters/minipro-mi508+.jpg",
+		"img" : "/img/goods/e-scooters/minipro-mi508+.webp",
 		"price" : "19 800 ₽",
 		"desc1" : "Диаметр колёс",
 		"value1" : "10.5\"",
@@ -435,7 +434,7 @@
 	"37" : {
 		"name" : "MiniPro Mi508+",
 		"producer" : "minipro",
-		"img" : "/img/goods/e-scooters/minipro-mi508+.jpg",
+		"img" : "/img/goods/e-scooters/minipro-mi508+.webp",
 		"price" : "19 800 ₽",
 		"desc1" : "Диаметр колёс",
 		"value1" : "10.5\"",
@@ -447,7 +446,7 @@
 	"38" : {
 		"name" : "MiniPro Mi566",
 		"producer" : "minipro",
-		"img" : "/img/goods/e-scooters/minipro-mi566.jpg",
+		"img" : "/img/goods/e-scooters/minipro-mi566.webp",
 		"price" : "15 500 ₽",
 		"desc1" : "Диаметр колёс",
 		"value1" : "10\"",
@@ -459,7 +458,7 @@
 	"39" : {
 		"name" : "MiniPro Mi600",
 		"producer" : "minipro",
-		"img" : "/img/goods/e-scooters/minipro-mi600.jpg",
+		"img" : "/img/goods/e-scooters/minipro-mi600.webp",
 		"price" : "18 500 ₽",
 		"desc1" : "Диаметр колёс",
 		"value1" : "12\"",
@@ -471,7 +470,7 @@
 	"40" : {
 		"name" : "MiniPro Mi605",
 		"producer" : "minipro",
-		"img" : "/img/goods/e-scooters/minipro-mi605.jpg",
+		"img" : "/img/goods/e-scooters/minipro-mi605.webp",
 		"price" : "12 500 ₽",
 		"desc1" : "Диаметр колёс",
 		"value1" : "10\"",
@@ -483,7 +482,7 @@
 	"41" : {
 		"name" : "MiniPro Mi606",
 		"producer" : "minipro",
-		"img" : "/img/goods/e-scooters/minipro-mi606.jpg",
+		"img" : "/img/goods/e-scooters/minipro-mi606.webp",
 		"price" : "16 000 ₽",
 		"desc1" : "Диаметр колёс",
 		"value1" : "10\"",
@@ -495,7 +494,7 @@
 	"42" : {
 		"name" : "MiniPro Mi618",
 		"producer" : "minipro",
-		"img" : "/img/goods/e-scooters/minipro-mi618.jpg",
+		"img" : "/img/goods/e-scooters/minipro-mi618.webp",
 		"price" : "21 000 ₽",
 		"desc1" : "Диаметр колёс",
 		"value1" : "10.5\"",
@@ -507,7 +506,7 @@
 	"43" : {
 		"name" : "MiniPro Mi618",
 		"producer" : "minipro",
-		"img" : "/img/goods/e-scooters/minipro-mi618.jpg",
+		"img" : "/img/goods/e-scooters/minipro-mi618.webp",
 		"price" : "22 000 ₽",
 		"desc1" : "Диаметр колёс",
 		"value1" : "10.5\"",
@@ -519,7 +518,7 @@
 	"44" : {
 		"name" : "MiniPro Mi625",
 		"producer" : "minipro",
-		"img" : "/img/goods/e-scooters/minipro-mi625.jpg",
+		"img" : "/img/goods/e-scooters/minipro-mi625.webp",
 		"price" : "16 000 ₽",
 		"desc1" : "Диаметр колёс",
 		"value1" : "10\"",
@@ -531,7 +530,7 @@
 	"45" : {
 		"name" : "MiniPro Mi626",
 		"producer" : "minipro",
-		"img" : "/img/goods/e-scooters/minipro-mi626.jpg",
+		"img" : "/img/goods/e-scooters/minipro-mi626.webp",
 		"price" : "16 000 ₽",
 		"desc1" : "Диаметр колёс",
 		"value1" : "10\"",
@@ -543,7 +542,7 @@
 	"46" : {
 		"name" : "MiniPro Mi656",
 		"producer" : "minipro",
-		"img" : "/img/goods/e-scooters/minipro-mi656.jpg",
+		"img" : "/img/goods/e-scooters/minipro-mi656.webp",
 		"price" : "19 800 ₽",
 		"desc1" : "Диаметр колёс",
 		"value1" : "12\"",
@@ -555,7 +554,7 @@
 	"47" : {
 		"name" : "MiniPro Mi668",
 		"producer" : "minipro",
-		"img" : "/img/goods/e-scooters/minipro-mi668.jpg",
+		"img" : "/img/goods/e-scooters/minipro-mi668.webp",
 		"price" : "15 500 ₽",
 		"desc1" : "Диаметр колёс",
 		"value1" : "12\"",
@@ -567,7 +566,7 @@
 	"48" : {
 		"name" : "MiniPro Mi716",
 		"producer" : "minipro",
-		"img" : "/img/goods/e-scooters/minipro-mi716.jpg",
+		"img" : "/img/goods/e-scooters/minipro-mi716.webp",
 		"price" : "27 000 ₽",
 		"desc1" : "Диаметр колёс",
 		"value1" : "10\"",
@@ -579,7 +578,7 @@
 	"49" : {
 		"name" : "MiniPro Mi818",
 		"producer" : "minipro",
-		"img" : "/img/goods/e-scooters/minipro-mi818.jpg",
+		"img" : "/img/goods/e-scooters/minipro-mi818.webp",
 		"price" : "26 000 ₽",
 		"desc1" : "Диаметр колёс",
 		"value1" : "14\"",
@@ -591,7 +590,7 @@
 	"50" : {
 		"name" : "MiniPro Mi818",
 		"producer" : "minipro",
-		"img" : "/img/goods/e-scooters/minipro-mi818.jpg",
+		"img" : "/img/goods/e-scooters/minipro-mi818.webp",
 		"price" : "32 000 ₽",
 		"desc1" : "Диаметр колёс",
 		"value1" : "14\"",
@@ -603,7 +602,7 @@
 	"51" : {
 		"name" : "MiniPro C1+",
 		"producer" : "minipro",
-		"img" : "/img/goods/e-scooters/minipro-c1+.jpg",
+		"img" : "/img/goods/e-scooters/minipro-c1+.webp",
 		"price" : "23 500 ₽",
 		"desc1" : "Диаметр колёс",
 		"value1" : "10\"",
@@ -615,7 +614,7 @@
 	"52" : {
 		"name" : "MiniPro C2",
 		"producer" : "minipro",
-		"img" : "/img/goods/e-scooters/minipro-c2.jpg",
+		"img" : "/img/goods/e-scooters/minipro-c2.webp",
 		"price" : "26 000 ₽",
 		"desc1" : "Диаметр колёс",
 		"value1" : "10\"",
@@ -627,7 +626,7 @@
 	"53" : {
 		"name" : "MiniPro C3",
 		"producer" : "minipro",
-		"img" : "/img/goods/e-scooters/minipro-c3.jpg",
+		"img" : "/img/goods/e-scooters/minipro-c3.webp",
 		"price" : "27 000 ₽",
 		"desc1" : "Диаметр колёс",
 		"value1" : "10\"",
@@ -639,7 +638,7 @@
 	"54" : {
 		"name" : "MiniPro C3+",
 		"producer" : "minipro",
-		"img" : "/img/goods/e-scooters/minipro-c3+.jpg",
+		"img" : "/img/goods/e-scooters/minipro-c3+.webp",
 		"price" : "23 500 ₽",
 		"desc1" : "Диаметр колёс",
 		"value1" : "12\"",
@@ -651,10 +650,10 @@
 	"55" : {
 		"name" : "MiniPro Tri-Scooter",
 		"producer" : "minipro",
-		"img" : "/img/goods/e-scooters/minipro-triscooter.jpg",
+		"img" : "/img/goods/e-scooters/minipro-triscooter.webp",
 		"price" : "14 000 ₽",
 		"desc1" : "Диаметр колёс",
-		"value1" : "8\""/5\"",
+		"value1" : "8\"/5\"",
 		"desc2" : "Мощность",
 		"value2" : "350W",
 		"desc3": "Аккумулятор",
@@ -663,7 +662,7 @@
 	"56" : {
 		"name" : "MiniPro G-Booster 3",
 		"producer" : "minipro",
-		"img" : "/img/goods/e-scooters/minipro-gbooster3.jpg",
+		"img" : "/img/goods/e-scooters/minipro-gbooster3.webp",
 		"price" : "22 000 ₽",
 		"desc1" : "Диаметр колёс",
 		"value1" : "10\"",
@@ -675,7 +674,7 @@
 	"57" : {
 		"name" : "MiniPro G-Booster X27",
 		"producer" : "minipro",
-		"img" : "/img/goods/e-scooters/minipro-gbooster27.jpg",
+		"img" : "/img/goods/e-scooters/minipro-gbooster27.webp",
 		"price" : "45 000 ₽",
 		"desc1" : "Диаметр колёс",
 		"value1" : "12\"",

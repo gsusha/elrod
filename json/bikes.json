@@ -1,7 +1,7 @@
 {
 	"1" : {
 		"name" : "BMW",
-		"img" : "/img/goods/bikes/bike1.jpg",
+		"img" : "/img/goods/bikes/bike1.webp",
 		"price" : "7 800 ₽",
 		"desc1" : "Складной",
 		"value1" : "Нет",
@@ -20,7 +20,7 @@
 	},
 	"2" : {
 		"name" : "BMW",
-		"img" : "/img/goods/bikes/bike2.jpg",
+		"img" : "/img/goods/bikes/bike2.webp",
 		"price" : "8 000 ₽",
 		"desc1" : "Складной",
 		"value1" : "Да",

@@ -1,7 +1,7 @@
 {
 	"1" : {
 		"name" : "Smart Balance 10.5\"",
-		"img" : "/img/goods/hoverboards/sbw.png",
+		"img" : "/img/goods/hoverboards/sbw.webp",
 		"price" : "6 200 ₽",
 		"desc1" : "Макс. скорость",
 		"value1" : "20 км/ч",
@@ -16,7 +16,7 @@
 	},
 	"2" : {
 		"name" : "Моноколесо",
-		"img" : "/img/goods/hoverboards/monw.jpg",
+		"img" : "/img/goods/hoverboards/monw.webp",
 		"price" : "17 300 ₽",
 		"desc1" : "Макс. скорость",
 		"value1" : "10 км/ч",
@@ -31,7 +31,7 @@
 	},
 	"3" : {
 		"name" : "Segway Mini Robot",
-		"img" : "/img/goods/hoverboards/seg.jpg",
+		"img" : "/img/goods/hoverboards/seg.webp",
 		"price" : "9 100 ₽",
 		"desc1" : "Макс. скорость",
 		"value1" : "20 км/ч",
