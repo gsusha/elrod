@@ -3,8 +3,10 @@ $(document).ready(function() {
 		$('#kugoo').toggleClass('active');
 		$('.minipro').toggle();
 	});
+
+
 	$('#minipro').click(function(event) {
 		$('#minipro').toggleClass('active');
 		$('.kugoo').toggle();
 	});
-});
+}); 
