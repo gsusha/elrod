@@ -255,7 +255,7 @@
 		"name" : "MiniPro S1",
 		"producer" : "minipro",
 		"img" : "/img/goods/e-scooters/minipro-s1.webp",
-		"price" : "Уточните у оператора",
+		"price" : "19 500 ₽",
 		"desc1" : "Диаметр колёс",
 		"value1" : "8\"",
 		"desc2" : "Мощность",
@@ -279,7 +279,7 @@
 		"name" : "MiniPro S3",
 		"producer" : "minipro",
 		"img" : "/img/goods/e-scooters/minipro-s3.webp",
-		"price" : "17 500 ₽",
+		"price" : "18 500 ₽",
 		"desc1" : "Диаметр колёс",
 		"value1" : "8\"",
 		"desc2" : "Мощность",
@@ -291,7 +291,7 @@
 		"name" : "MiniPro S3+",
 		"producer" : "minipro",
 		"img" : "/img/goods/e-scooters/minipro-s3+.webp",
-		"price" : "Уточните у оператора",
+		"price" : "19 500 ₽",
 		"desc1" : "Диаметр колёс",
 		"value1" : "8\"",
 		"desc2" : "Мощность",
@@ -303,7 +303,7 @@
 		"name" : "MiniPro S4",
 		"producer" : "minipro",
 		"img" : "/img/goods/e-scooters/minipro-s4.webp",
-		"price" : "Уточните у оператора",
+		"price" : "19 000 ₽",
 		"desc1" : "Диаметр колёс",
 		"value1" : "8\"",
 		"desc2" : "Мощность",
@@ -315,7 +315,7 @@
 		"name" : "MiniPro M2",
 		"producer" : "minipro",
 		"img" : "/img/goods/e-scooters/minipro-m2.webp",
-		"price" : "Уточните у оператора",
+		"price" : "29 000 ₽",
 		"desc1" : "Диаметр колёс",
 		"value1" : "8\"",
 		"desc2" : "Мощность",
@@ -351,7 +351,7 @@
 		"name" : "MiniPro M5",
 		"producer" : "minipro",
 		"img" : "/img/goods/e-scooters/minipro-m5.webp",
-		"price" : "Уточните у оператора",
+		"price" : "57 000 ₽",
 		"desc1" : "Диаметр колёс",
 		"value1" : "11\"",
 		"desc2" : "Мощность",
@@ -363,7 +363,7 @@
 		"name" : "MiniPro Mi118",
 		"producer" : "minipro",
 		"img" : "/img/goods/e-scooters/minipro-mi118.webp",
-		"price" : "Уточните у оператора",
+		"price" : "33 500 ₽",
 		"desc1" : "Диаметр колёс",
 		"value1" : "8\"",
 		"desc2" : "Мощность",
@@ -375,7 +375,7 @@
 		"name" : "MiniPro Mi158",
 		"producer" : "minipro",
 		"img" : "/img/goods/e-scooters/minipro-mi158.webp",
-		"price" : "Уточните у оператора",
+		"price" : "30 000 ₽",
 		"desc1" : "Диаметр колёс",
 		"value1" : "8,5\"",
 		"desc2" : "Мощность",
@@ -387,7 +387,7 @@
 		"name" : "MiniPro Mi188",
 		"producer" : "minipro",
 		"img" : "/img/goods/e-scooters/minipro-mi188.webp",
-		"price" : "Уточните у оператора",
+		"price" : "28 000 ₽",
 		"desc1" : "Диаметр колёс",
 		"value1" : "8.5\"",
 		"desc2" : "Мощность",
@@ -399,7 +399,7 @@
 		"name" : "MiniPro Mi502",
 		"producer" : "minipro",
 		"img" : "/img/goods/e-scooters/minipro-mi502.webp",
-		"price" : "Уточните у оператора",
+		"price" : "33 500 ₽",
 		"desc1" : "Диаметр колёс",
 		"value1" : "10\"",
 		"desc2" : "Мощность",
@@ -411,7 +411,7 @@
 		"name" : "MiniPro Mi506",
 		"producer" : "minipro",
 		"img" : "/img/goods/e-scooters/minipro-mi506.webp",
-		"price" : "Уточните у оператора",
+		"price" : "36 000 ₽",
 		"desc1" : "Диаметр колёс",
 		"value1" : "10\"",
 		"desc2" : "Мощность",
@@ -435,6 +435,18 @@
 		"name" : "MiniPro Mi508+",
 		"producer" : "minipro",
 		"img" : "/img/goods/e-scooters/minipro-mi508+.webp",
+		"price" : "43 900 ₽",
+		"desc1" : "Диаметр колёс",
+		"value1" : "10.5\"",
+		"desc2" : "Мощность",
+		"value2" : "350W",
+		"desc3": "Аккумулятор",
+		"value3": "36V / 13Ah"
+	},
+	"38" : {
+		"name" : "MiniPro Mi508+",
+		"producer" : "minipro",
+		"img" : "/img/goods/e-scooters/minipro-mi508+.webp",
 		"price" : "49 000 ₽",
 		"desc1" : "Диаметр колёс",
 		"value1" : "10.5\"",
@@ -443,7 +455,7 @@
 		"desc3": "Аккумулятор",
 		"value3": "48V / 16Ah"
 	},
-	"38" : {
+	"39" : {
 		"name" : "MiniPro Mi566",
 		"producer" : "minipro",
 		"img" : "/img/goods/e-scooters/minipro-mi566.webp",
@@ -455,11 +467,11 @@
 		"desc3": "Аккумулятор",
 		"value3": "36V / 8Ah"
 	},
-	"39" : {
+	"40" : {
 		"name" : "MiniPro Mi600",
 		"producer" : "minipro",
 		"img" : "/img/goods/e-scooters/minipro-mi600.webp",
-		"price" : "Уточните у оператора",
+		"price" : "35 500 ₽",
 		"desc1" : "Диаметр колёс",
 		"value1" : "12\"",
 		"desc2" : "Мощность",
@@ -467,11 +479,11 @@
 		"desc3": "Аккумулятор",
 		"value3": "36V / 5.2Ah"
 	},
-	"40" : {
+	"41" : {
 		"name" : "MiniPro Mi605",
 		"producer" : "minipro",
 		"img" : "/img/goods/e-scooters/minipro-mi605.webp",
-		"price" : "Уточните у оператора",
+		"price" : "22 000 ₽",
 		"desc1" : "Диаметр колёс",
 		"value1" : "10\"",
 		"desc2" : "Мощность",
@@ -479,11 +491,11 @@
 		"desc3": "Аккумулятор",
 		"value3": "36V / 5.2Ah"
 	},
-	"41" : {
+	"42" : {
 		"name" : "MiniPro Mi606",
 		"producer" : "minipro",
 		"img" : "/img/goods/e-scooters/minipro-mi606.webp",
-		"price" : "Уточните у оператора",
+		"price" : "29 900 ₽",
 		"desc1" : "Диаметр колёс",
 		"value1" : "10\"",
 		"desc2" : "Мощность",
@@ -491,11 +503,11 @@
 		"desc3": "Аккумулятор",
 		"value3": "36V / 8Ah"
 	},
-	"42" : {
+	"43" : {
 		"name" : "MiniPro Mi618",
 		"producer" : "minipro",
 		"img" : "/img/goods/e-scooters/minipro-mi618.webp",
-		"price" : "Уточните у оператора",
+		"price" : "48 990 ₽",
 		"desc1" : "Диаметр колёс",
 		"value1" : "10.5\"",
 		"desc2" : "Мощность",
@@ -503,11 +515,11 @@
 		"desc3": "Аккумулятор",
 		"value3": "48V / 10Ah"
 	},
-	"43" : {
+	"44" : {
 		"name" : "MiniPro Mi618",
 		"producer" : "minipro",
 		"img" : "/img/goods/e-scooters/minipro-mi618.webp",
-		"price" : "Уточните у оператора",
+		"price" : "51 990 ₽",
 		"desc1" : "Диаметр колёс",
 		"value1" : "10.5\"",
 		"desc2" : "Мощность",
@@ -515,11 +527,11 @@
 		"desc3": "Аккумулятор",
 		"value3": "48V / 13Ah"
 	},
-	"44" : {
+	"45" : {
 		"name" : "MiniPro Mi625",
 		"producer" : "minipro",
 		"img" : "/img/goods/e-scooters/minipro-mi625.webp",
-		"price" : "Уточните у оператора",
+		"price" : "28 000 ₽",
 		"desc1" : "Диаметр колёс",
 		"value1" : "10\"",
 		"desc2" : "Мощность",
@@ -527,11 +539,11 @@
 		"desc3": "Аккумулятор",
 		"value3": "36V / 5.2Ah"
 	},
-	"45" : {
+	"46" : {
 		"name" : "MiniPro Mi626",
 		"producer" : "minipro",
 		"img" : "/img/goods/e-scooters/minipro-mi626.webp",
-		"price" : "Уточните у оператора",
+		"price" : "28 000 ₽",
 		"desc1" : "Диаметр колёс",
 		"value1" : "10\"",
 		"desc2" : "Мощность",
@@ -539,7 +551,7 @@
 		"desc3": "Аккумулятор",
 		"value3": "36V / 11Ah"
 	},
-	"46" : {
+	"47" : {
 		"name" : "MiniPro Mi656",
 		"producer" : "minipro",
 		"img" : "/img/goods/e-scooters/minipro-mi656.webp",
@@ -551,11 +563,11 @@
 		"desc3": "Аккумулятор",
 		"value3": "36V / 10Ah"
 	},
-	"47" : {
+	"48" : {
 		"name" : "MiniPro Mi668",
 		"producer" : "minipro",
 		"img" : "/img/goods/e-scooters/minipro-mi668.webp",
-		"price" : "Уточните у оператора",
+		"price" : "33 000 ₽",
 		"desc1" : "Диаметр колёс",
 		"value1" : "12\"",
 		"desc2" : "Мощность",
@@ -563,27 +575,15 @@
 		"desc3": "Аккумулятор",
 		"value3": "36V / 10Ah"
 	},
-	"48" : {
+	"49" : {
 		"name" : "MiniPro Mi716",
 		"producer" : "minipro",
 		"img" : "/img/goods/e-scooters/minipro-mi716.webp",
-		"price" : "Уточните у оператора",
+		"price" : "53 000 ₽",
 		"desc1" : "Диаметр колёс",
 		"value1" : "10\"",
 		"desc2" : "Мощность",
 		"value2" : "800W",
-		"desc3": "Аккумулятор",
-		"value3": "48V / 16Ah"
-	},
-	"49" : {
-		"name" : "MiniPro Mi818",
-		"producer" : "minipro",
-		"img" : "/img/goods/e-scooters/minipro-mi818.webp",
-		"price" : "Уточните у оператора",
-		"desc1" : "Диаметр колёс",
-		"value1" : "14\"",
-		"desc2" : "Мощность",
-		"value2" : "1000W",
 		"desc3": "Аккумулятор",
 		"value3": "48V / 16Ah"
 	},
@@ -591,7 +591,19 @@
 		"name" : "MiniPro Mi818",
 		"producer" : "minipro",
 		"img" : "/img/goods/e-scooters/minipro-mi818.webp",
-		"price" : "Уточните у оператора",
+		"price" : "58 000 ₽",
+		"desc1" : "Диаметр колёс",
+		"value1" : "14\"",
+		"desc2" : "Мощность",
+		"value2" : "1000W",
+		"desc3": "Аккумулятор",
+		"value3": "48V / 16Ah"
+	},
+	"51" : {
+		"name" : "MiniPro Mi818",
+		"producer" : "minipro",
+		"img" : "/img/goods/e-scooters/minipro-mi818.webp",
+		"price" : "63 000 ₽",
 		"desc1" : "Диаметр колёс",
 		"value1" : "14\"",
 		"desc2" : "Мощность",
@@ -599,23 +611,11 @@
 		"desc3": "Аккумулятор",
 		"value3": "48V / 20Ah"
 	},
-	"51" : {
+	"52" : {
 		"name" : "MiniPro C1+",
 		"producer" : "minipro",
 		"img" : "/img/goods/e-scooters/minipro-c1+.webp",
-		"price" : "Уточните у оператора",
-		"desc1" : "Диаметр колёс",
-		"value1" : "10\"",
-		"desc2" : "Мощность",
-		"value2" : "800W",
-		"desc3": "Аккумулятор",
-		"value3": "48V / 16Ah"
-	},
-	"52" : {
-		"name" : "MiniPro C2",
-		"producer" : "minipro",
-		"img" : "/img/goods/e-scooters/minipro-c2.webp",
-		"price" : "Уточните у оператора",
+		"price" : "57 300 ₽",
 		"desc1" : "Диаметр колёс",
 		"value1" : "10\"",
 		"desc2" : "Мощность",
@@ -624,10 +624,10 @@
 		"value3": "48V / 16Ah"
 	},
 	"53" : {
-		"name" : "MiniPro C3",
+		"name" : "MiniPro C2",
 		"producer" : "minipro",
-		"img" : "/img/goods/e-scooters/minipro-c3.webp",
-		"price" : "Уточните у оператора",
+		"img" : "/img/goods/e-scooters/minipro-c2.webp",
+		"price" : "55 000 ₽",
 		"desc1" : "Диаметр колёс",
 		"value1" : "10\"",
 		"desc2" : "Мощность",
@@ -636,6 +636,18 @@
 		"value3": "48V / 16Ah"
 	},
 	"54" : {
+		"name" : "MiniPro C3",
+		"producer" : "minipro",
+		"img" : "/img/goods/e-scooters/minipro-c3.webp",
+		"price" : "56 000 ₽",
+		"desc1" : "Диаметр колёс",
+		"value1" : "10\"",
+		"desc2" : "Мощность",
+		"value2" : "800W",
+		"desc3": "Аккумулятор",
+		"value3": "48V / 16Ah"
+	},
+	"55" : {
 		"name" : "MiniPro C3+",
 		"producer" : "minipro",
 		"img" : "/img/goods/e-scooters/minipro-c3+.webp",
@@ -647,11 +659,11 @@
 		"desc3": "Аккумулятор",
 		"value3": "48V / 16Ah"
 	},
-	"55" : {
+	"56" : {
 		"name" : "MiniPro Tri-Scooter",
 		"producer" : "minipro",
 		"img" : "/img/goods/e-scooters/minipro-triscooter.webp",
-		"price" : "Уточните у оператора",
+		"price" : "26 999 ₽",
 		"desc1" : "Диаметр колёс",
 		"value1" : "8\"/5\"",
 		"desc2" : "Мощность",
@@ -659,11 +671,11 @@
 		"desc3": "Аккумулятор",
 		"value3": "8.8Ah"
 	},
-	"56" : {
+	"57" : {
 		"name" : "MiniPro G-Booster 3",
 		"producer" : "minipro",
 		"img" : "/img/goods/e-scooters/minipro-gbooster3.webp",
-		"price" : "Уточните у оператора",
+		"price" : "39 000 ₽",
 		"desc1" : "Диаметр колёс",
 		"value1" : "10\"",
 		"desc2" : "Мощность",
@@ -671,11 +683,11 @@
 		"desc3": "Аккумулятор",
 		"value3": "8.8Ah"
 	},
-	"57" : {
+	"58" : {
 		"name" : "MiniPro G-Booster X27",
 		"producer" : "minipro",
 		"img" : "/img/goods/e-scooters/minipro-gbooster27.webp",
-		"price" : "Уточните у оператора",
+		"price" : "88 000 ₽",
 		"desc1" : "Диаметр колёс",
 		"value1" : "12\"",
 		"desc2" : "Мощность",
