@@ -694,5 +694,41 @@
 		"value2" : "1600W",
 		"desc3": "Аккумулятор",
 		"value3": "48V / 23Ah"
+	},
+	"59" : {
+		"name" : "MiniPro Mi T01",
+		"producer" : "minipro",
+		"img" : "/img/goods/e-scooters/minipro-t01.webp",
+		"price" : "18 500 ₽",
+		"desc1" : "Диаметр колёс",
+		"value1" : "5\"",
+		"desc2" : "Мощность",
+		"value2" : "350W",
+		"desc3": "Аккумулятор",
+		"value3": "4.4Ah"
+	},
+	"60" : {
+		"name" : "MiniPro Mi T02",
+		"producer" : "minipro",
+		"img" : "/img/goods/e-scooters/minipro-t02.webp",
+		"price" : "18 500 ₽",
+		"desc1" : "Диаметр колёс",
+		"value1" : "8\"",
+		"desc2" : "Мощность",
+		"value2" : "250W",
+		"desc3": "Аккумулятор",
+		"value3": "4.4Ah"
+	},
+	"61" : {
+		"name" : "MiniPro Велосипед-дрифткар",
+		"producer" : "minipro",
+		"img" : "/img/goods/e-scooters/minipro-bike.webp",
+		"price" : "6 500 ₽",
+		"desc1" : "Диаметр колёс",
+		"value1" : "12\"",
+		"desc2" : "Материал корпуса",
+		"value2" : "Сталь",
+		"desc3": "Макс. нагрузка",
+		"value3": "35кг"
 	}
 }
