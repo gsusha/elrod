@@ -1,0 +1,47 @@
+{
+	"1" : {
+		"name" : "Smart Balance 10.5\"",
+		"img" : "/img/goods/hoverboards/sbw.webp",
+		"price" : "11 500 ₽",
+		"desc1" : "Макс. скорость",
+		"value1" : "20 км/ч",
+		"desc2" : "Дальность хода",
+		"value2" : "25 км",
+		"desc3": "Мощность",
+		"value3": "1200W",
+		"desc4": "Аккумулятор",
+		"value4": "Samsung",
+		"desc5" : "Bluetooth-приложение",
+		"value5" : "Да"
+	},
+	"2" : {
+		"name" : "Моноколесо",
+		"img" : "/img/goods/hoverboards/monw.webp",
+		"price" : "17 300 ₽",
+		"desc1" : "Макс. скорость",
+		"value1" : "10 км/ч",
+		"desc2" : "Дальность хода",
+		"value2" : "10 км",
+		"desc3": "Мощность",
+		"value3": "500W",
+		"desc4": "Масса",
+		"value4": "10.5 кг",
+		"desc5" : "Макс. нагрузка",
+		"value5" : "80 кг"
+	},
+	"3" : {
+		"name" : "Segway Mini Robot",
+		"img" : "/img/goods/hoverboards/seg.webp",
+		"price" : "9 100 ₽",
+		"desc1" : "Макс. скорость",
+		"value1" : "20 км/ч",
+		"desc2" : "Дальность хода",
+		"value2" : "35 км",
+		"desc3": "Мощность",
+		"value3": "250W",
+		"desc4": "Аккумулятор",
+		"value4": "Samsung",
+		"desc5" : "Диаметр колёс",
+		"value5" : "10\""
+	}
+}
