@@ -626,8 +626,109 @@ html, body {
   background: #B04029;
 }
 
+/* ------ О нас ------ */
+.about {
+  padding: 50px 0;
+}
+.about .about__supertitle {
+  text-align: center;
+  font-weight: 500;
+  font-size: 40px;
+  margin: 0px 0px 100px 0px;
+}
+.about .about__body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+.about .about__body .about__row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 0px -60px;
+}
+.about .about__body .about__row .about__photo {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 1 50%;
+          flex: 0 1 50%;
+  margin: 0px 60px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.about .about__body .about__row .about__photo .about__title {
+  font-size: 20px;
+  font-weight: 500;
+  margin: 0px 0px 80px 0px;
+}
+.about .about__body .about__row .about__photo .about__images {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+.about .about__body .about__row .about__photo .about__images .about__img {
+  max-width: 200px;
+  margin: 0px 4px 4px 0px;
+}
+.about .about__body .about__row .about__photo .about__images .about__img img {
+  width: 100%;
+}
+.about .about__body .about__row .about__where {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.about .about__body .about__row .about__where .about__title {
+  font-size: 20px;
+  font-weight: 500;
+  margin: 0px 0px 50px 0px;
+}
+@media (max-width: 1100px) {
+  .about .about__body .about__row .about__photo .about__images {
+    -ms-grid-columns: 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+  }
+}
+@media (max-width: 767px) {
+  .about .about__body .about__row {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .about .about__body .about__row .about__photo {
+    margin: 0px 0px 50px 0px;
+  }
+}
+@media (max-width: 460px) {
+  .about .about__body .about__row .about__photo .about__images {
+    -ms-grid-columns: 1fr;
+    grid-template-columns: 1fr;
+  }
+}
+
 /* ------ Футер ------ */
 .footer {
+  background: #F3F8FA;
   padding: 50px 0;
   line-height: 18px;
   letter-spacing: 0.07em;
