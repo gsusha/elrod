@@ -773,9 +773,6 @@ html, body {
 .footer .footer__row .footer__column .footer__icons .footer__icon {
   margin: 0px 15px 0px 0px;
 }
-.footer .footer__row .footer__column .footer__icons .footer__icon:last-child {
-  margin: 0;
-}
 .footer .footer__row .footer__column .footer__copyright a {
   text-decoration: none;
   color: #182227;
