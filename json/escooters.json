@@ -134,8 +134,8 @@
 	"12" : {
 		"name" : "Kugoo C1",
 		"producer" : "kugoo",
-		"img" : "/img/goods/e-scooters/kugoo-v1.webp",
-		"price" : "Уточните у оператора",
+		"img" : "/img/goods/e-scooters/kugoo-c1.webp",
+		"price" : "27 000 ₽",
 		"desc1" : "Диаметр колёс",
 		"value1" : "12\"",
 		"desc2" : "Мощность",
@@ -730,5 +730,17 @@
 		"value2" : "Сталь",
 		"desc3": "Макс. нагрузка",
 		"value3": "35кг"
+	},
+	"62" : {
+		"name" : "Kugoo First",
+		"producer" : "kugoo",
+		"img" : "/img/goods/e-scooters/kugoo-first.webp",
+		"price" : "9 000 ₽",
+		"desc1" : "Диаметр колёс",
+		"value1" : "5.5\"",
+		"desc2" : "Мощность",
+		"value2" : "100W",
+		"desc3": "Аккумулятор",
+		"value3": "24V / 2.6 Ah"
 	}
 }
